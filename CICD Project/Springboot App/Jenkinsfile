@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        DOCKER_IMAGE = "<your-dockerhub-username>/proectappforcicd:latest"
+        DOCKER_IMAGE = "<your-dockerhub-username>/my-app:latest"
     }
     stages {
         stage('Clone Repository') {
