@@ -121,6 +121,18 @@ The pipeline consists of the following stages:
      docker images
      docker run -p 8082:8082 my-app:latest
 
+## Step 5: Integrate Docker with Jenkins
+   _To install the GitHub plugin lets go to our Jenkins Dashboard and click on manage Jenkins_
+  
+   _On the next page, click on manage plugins_
+  
+   _Now in order to install any plugin we need to select Available Plugins, search for Github Integration, select the plugin, and finally click on `Install without restart`_
+
+   _Now let’s configure Docker on Jenkins._
+   
+       Go to Manage Jenkins → Manage Credentials → Add your DockerHub username and password as credentials.
+       Use an ID like dockerhub_credentials.
+
 
 ## Step 5: Create a Jenkins Pipeline Job
  In Jenkins Webserver:
